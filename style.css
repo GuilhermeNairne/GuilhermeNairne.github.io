@@ -1,0 +1,243 @@
+body{
+    background-color: #02001d;
+    width: 100%;
+}
+
+.container {
+    /* width: 100%; */
+    height: 100%;
+    padding: 20px;
+}
+
+.header {
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.img {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+.apresentacao {
+    width: 55%;
+    margin-top: 30px;
+}
+
+.ola {
+    color: white;
+    font-size: xx-large;
+}
+
+.nome {
+    color: #FFD700;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.funcao {
+    color: #6a6a6a;
+    font-size: larger;
+    margin-top: -20px;
+}
+
+.botoes {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.curriculo {
+    width: 180px;
+    height: 40px;
+    background-color: #a58c00;
+    color: white;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border-color: #a58c00;
+}
+
+.curriculo:hover {
+    transform: scale(1.1);
+}
+
+.contato:hover {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.projeto:hover {
+    transform: scale(1.1);
+}
+
+.redeSocial:hover {
+    transform: scale(1.1);
+}
+
+.contato {
+    width: 180px;
+    height: 40px;
+    background-color: #ffd90000;
+    color: #a58c00;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border-color: #a58c00;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;   
+    align-items: center;
+    margin-top: 80px;
+}
+
+.textos {
+    width: 50%;
+}
+
+.sobreMin {
+    color: white;
+}
+
+.texto {
+    color: rgb(141, 141, 141);
+}
+
+.tecnologias {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tecTitulo {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.tecConhecidas {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.card {
+    width: 100px;
+    height: 90px;
+    background-color: #290040;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.portifolio {
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+
+.projeto {
+    width: 30%;
+    height: 150px;  
+    text-align: center;  
+    width: 100%;
+}
+
+.capa {
+    width: 350px;
+    height: 250px;
+}
+
+.nomeProjeto {
+    color: white;
+   
+}
+
+a {
+    text-decoration: none;
+    width: 100%;     
+}
+
+.eu {
+    width: 300px;
+    height: 300px;
+    border-radius: 10cm;
+    margin-top: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+   
+    text-align: center;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #6a6a6a;   
+}
+
+.redeSocial {
+    width: 50px;
+    height: 50px;
+    border-radius: 20cm;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redeLogo {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    text-decoration: none;    
+    width: 50px;
+}
+
+.download {
+    text-decoration: none;  
+    width: 180px;
+}
